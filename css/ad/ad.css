@@ -1,0 +1,68 @@
+.ad {
+	padding-top: 45px;
+	padding-bottom: 30px;
+}
+
+.ad__box {
+	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("../ad/img/ad.png");
+	/* background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../ad/img/ad.png"); */
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 1770px;
+	height: 480px;
+}
+
+.ad__box-timer {
+	margin-left: 649px;
+}
+
+.ad__box-title {
+	margin-bottom: 100px;
+	padding-top: 145px;
+	padding-left: 112px;
+	font-family: "Lato", "Arial", sans-serif;
+	font-size: 70px;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 1);
+	line-height: 91px;
+}
+
+.ad__box-timer-text {
+	margin-bottom: 5px;
+	padding-left: 823px;
+	font-family: "Lato", "Arial", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 1);
+	line-height: 20.8px;
+}
+
+.ad__box-timer-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 473px;
+}
+
+.ad__box-timer-element {
+	display: flex;
+	justify-self: end;
+}
+
+.ad__box-timer-span {
+	margin-right: 6px;
+	font-family: "Lato", "Arial", sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 1);
+	line-height: 78px;
+}
+
+.ad__box-timer-paragraph {
+	padding-top: 27px;
+	font-family: "Lato", "Arial", sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 1);
+	line-height: 41.6px;
+}

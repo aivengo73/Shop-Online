@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SHOP-ONLINE</title>
+	<link rel="preload" href="fonts/Lato/lato-bold.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/Lato/lato-regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<main>
+		<section class="header">
+			<div class="container">
+				<div class="header__inner">
+					<a class="header__logo" href="#">
+						<img class="header__logo-img" src="css/header/img/logo.png" width="190" height="41" alt="Логотип">
+					</a>
+					<span class="header__logo-span"></span>
+					<div class="header__menu">
+						<a href="#">
+							<img class="header__menu-img" src="css/header/img/Vector.svg" alt="Кнопка выбора меню">
+						</a>
+						<a class="header__menu-link" href="#">Меню</a>
+					</div>
+					<span class="header__menu-span-span"></span>
+					<form class="header__search" action="https://jsonplaceholder.typicode.com/posts" method="post">
+						<label class="header__search-label">
+							<input class="header__search-input" name="search" placeholder="Я ищу..." type="search">
+						</label>
+						<button class="header__search-btn" type="submit">
+							<img class="header__search-img" src="css/header/img/search.svg" alt="Поиск">
+						</button>
+					</form>
+				
+					<span class="header__search-span"></span>
+					<ul class="header__list">
+						<!-- 1 -->
+						<li class="header__list-item ">
+							<div class="header__item-prima">
+								<a class="header__item-link" href="#">
+									<img class="header__item-img" src="css/header/img/person.svg" alt="Картинка персоны">
+
+									<span class="header__item-text">Профиль</span>
+								</a>
+							</div>
+						</li>
+						<!-- 2 -->
+						<li class="header__list-item">
+							<div class="header__item-second">
+								<a class="header__item-link" href="#">
+									<img class="header__item-img" src="css/header/img/shopping_cart.svg"
+										alt="Картинка продуктовой корзины">
+
+									<span class="header__item-text">Корзина</span>
+								</a>
+							</div>
+						</li>
+
+						<!-- 3 -->
+						<li class="header__list-item">
+							<div class="header__item-third">
+								<a class="header__item-link" href="#">
+									<img class="header__item-img" src="css/header/img/favorite.svg" alt="Картинка сердечко">
+
+									<span class="header__item-text">Избранное</span>
+								</a>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- !=================== ad ================ -->
+
+		<section class="ad">
+			<div class="container">
+				<div class="ad__box">
+					<p class="ad__box-title">-50% на все ноутбуки</p>
+
+					<p class="ad__box-timer-text">До конца акции:</p>
+
+					<div class="ad__box-timer d-flex">
+						<ul class="ad__box-timer-list">
+							<!-- 1 -->
+							<li class="ad__box-timer-element d-flex">
+								<span class="ad__box-timer-span">3</span>
+								<p class="ad__box-timer-paragraph">дня</p>
+							</li>
+							<!-- 2 -->
+							<li class="ad__box-timer-element d-flex">
+								<span class="ad__box-timer-span">8</span>
+								<p class="ad__box-timer-paragraph">часов</p>
+							</li>
+							<!-- 3 -->
+							<li class="ad__box-timer-element d-flex">
+								<span class="ad__box-timer-span">43</span>
+								<p class="ad__box-timer-paragraph">минуты</p>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- !================== card =========== -->
+
+		<section class="card">
+			<div class="container">
+				<div class="cards__box">
+
+					<!-- 1 -->
+					<div class="card__item one" width="245" height="245">
+						<p class="one__text"><span>Книга</span> – лучший подарок</p>
+					</div>
+
+					<!-- 2 -->
+					<div class="card__item two" width="245" height="245">
+						<p class="two__text">Время скидок!</p>
+						<span class="two__span" width="88" height="88">-25%</span>
+					</div>
+
+					<!-- 3 -->
+					<div class="card__item three" width="550" height="550">
+						<p class="three__text">Вторая пара кроссовок
+							<span>в подарок!</span>
+						</p>
+					</div>
+
+					<!-- 4  -->
+					<div class="card__item four" width="550" height="245">
+						<p class="four__text">Идеи новогодних
+							подарков</p>
+					</div>
+
+					<!-- 5 -->
+					<div class="card__item five" width="550" height="245">
+						<span class="five__span">-40%</span>
+					</div>
+
+					<!-- 6 -->
+					<div class="card__item six" width="550" height="245">
+						<p class="six__text">Выгодно в декабре!</p>
+						<span class="six__span">-15%</span>
+					</div>
+
+					<!-- 7 -->
+					<div class="card__item seven" width="1160" height="550">
+						<p class="seven__text">Новогодние украшения</p>
+					</div>
+
+					<!-- 8 -->
+					<div class="card__item otto" width="245" height="550">
+						<span class="otto__span">-55%</span>
+					</div>
+
+					<!-- 9 -->
+					<div class="card__item nane" width="245" height="245">
+						<span class="nane__span">-25%</span>
+						<p class="nane__text">На бытовую химию</p>
+
+					</div>
+
+					<!-- 10 -->
+					<div class="card__item ten" width="245" height="245">
+						<img class="card__item-img" src="css/card/img/Rectangle10.png" alt="">
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+	</main>
+</body>
+
+</html>

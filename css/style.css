@@ -1,0 +1,142 @@
+@import "../css/header/header.css";
+@import "../css/ad/ad.css";
+@import "../css/card/card.css";
+
+/* !! ============ global ================= */
+
+@font-face {
+	font-display: swap;
+	font-family: "Lato";
+	src:
+		local("lato-regular"),
+		local("lato regular"),
+		url("../fonts/Lato/lato-regular.woff2") format("woff2"),
+		url("fonts/Lato/lato.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-display: swap;
+	font-family: "Lato";
+	src:
+		local("lato-bold"),
+		local("lato bold"),
+		url("../fonts/Lato/lato-bold.woff2") format("woff2"),
+		url("fonts/Lato/lato-bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+
+html {
+	position: relative;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: "Lato", "Arial", sans-serif;
+	min-width: 320px;
+	min-height: 100vh;
+	/* position: relative; */
+}
+
+img {
+	/* max-width: 100%; */
+	max-height: 100%;
+	height: auto;
+}
+
+button {
+	padding: 0;
+	cursor: pointer;
+	border: none;
+	background-color: transparent;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+fieldset,
+blockquote,
+label,
+li,
+input {
+	margin: 0;
+}
+
+iframe {
+	border: none;
+}
+
+/*
+Доступно скрываю элементы
+*/
+
+.visually-hidden {
+	position: fixed;
+	transform: scale(0);
+}
+
+/* !! ============== general settings ============= */
+
+svg {
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	max-width: 1830px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	color: rgba(255, 255, 255, 1);
+	line-height: 39px;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.flex-sb {
+	justify-content: space-between;
+}
+
+.align-itc {
+	align-items: center;
+}
+
+.flex-dir-col {
+	flex-direction: column;
+}
+
+.d-grid {
+	display: grid;
+}
+
