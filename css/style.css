@@ -28,6 +28,18 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-display: swap;
+	font-family: "OpenSans";
+	src:
+		local("lato-bold"),
+		local("lato bold"),
+		url("../fonts/OpenSans/OpenSans-Bold.ttf") format("ttf"),
+		url("fonts/OpenSans/OpenSans-bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+
 html {
 	position: relative;
 	box-sizing: border-box;
@@ -104,12 +116,12 @@ svg {
 	height: auto;
 }
 
-.container {
+/* .container {
 	max-width: 1830px;
 	padding-left: 30px;
 	padding-right: 30px;
 	margin: 0 auto;
-}
+} */
 
 body {
 	font-family: "Arial", sans-serif;
@@ -118,6 +130,11 @@ body {
 	font-size: 30px;
 	color: rgba(255, 255, 255, 1);
 	line-height: 39px;
+}
+
+.container {
+	max-width: 1770px;
+	margin: 0 auto;
 }
 
 .d-flex {
