@@ -59,7 +59,7 @@ body {
 }
 
 img {
-	/* max-width: 100%; */
+	max-width: 100%;
 	max-height: 100%;
 	height: auto;
 }
@@ -116,27 +116,54 @@ svg {
 	height: auto;
 }
 
-/* .container {
-	max-width: 1830px;
-	padding-left: 30px;
-	padding-right: 30px;
-	margin: 0 auto;
-} */
-
 body {
-	font-family: "Arial", sans-serif;
+	font-family: "Lato", "Arial", sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 30px;
+	font-size: 16px;
 	color: rgba(255, 255, 255, 1);
-	line-height: 39px;
+	line-height: 130%;
 }
 
 .container {
-	max-width: 1770px;
+	max-width: 1920px;
 	margin: 0 auto;
+	padding-left: 75px;
+	padding-right: 75px;
 }
 
+/* !======= @media 1024px */
+
+@media (max-width: 1024px) {
+	.container {
+		max-width: 1024px;
+		margin: 0 auto;
+		padding-left: 42px;
+		padding-right: 42px;
+	}
+}
+
+/* !======= @media 768px */
+
+@media (max-width: 768px) {
+	.container {
+		max-width: 768px;
+		margin: 0 auto;
+		padding-left: 34px;
+		padding-right: 34px;
+	}
+}
+
+/* !======= @media 320px */
+
+@media (max-width: 320px) {
+	.container {
+		max-width: 320px;
+		margin: 0 auto;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
 .d-flex {
 	display: flex;
 }
@@ -156,4 +183,3 @@ body {
 .d-grid {
 	display: grid;
 }
-
