@@ -13,7 +13,6 @@
 }
 
 .ad__box-timer {
-	
 	padding-left: 649px;
 }
 
@@ -24,9 +23,8 @@
 	font-family: "Lato", "Arial", sans-serif;
 	font-size: 70px;
 	font-weight: 700;
-	color: rgba(255, 255, 255, 1);
+	color: var(--main-color);
 	line-height: 91px;
-	
 }
 
 .ad__box-timer-text {
@@ -35,9 +33,8 @@
 	font-family: "Lato", "Arial", sans-serif;
 	font-size: 16px;
 	font-weight: 700;
-	color: rgba(255, 255, 255, 1);
+	color: var(--main-color);
 	line-height: 20.8px;
-	
 }
 
 .ad__box-timer-list {
@@ -49,7 +46,6 @@
 
 .ad__box-timer-element {
 	display: flex;
-	
 	margin-right: 30px;
 }
 
@@ -62,7 +58,7 @@
 	font-family: "Lato", "Arial", sans-serif;
 	font-size: 60px;
 	font-weight: 700;
-	color: rgba(255, 255, 255, 1);
+	color: var(--main-color);
 	line-height: 78px;
 }
 
@@ -71,7 +67,7 @@
 	font-family: "Lato", "Arial", sans-serif;
 	font-size: 32px;
 	font-weight: 700;
-	color: rgba(255, 255, 255, 1);
+	color: var(--main-color);
 	line-height: 41.6px;
 }
 
@@ -79,10 +75,8 @@
 
 @media screen and (max-width: 1360px) {
 	.ad__box-title {
-		
 		margin-bottom: 80px;
 		padding-left: 90px;
-		
 		line-height: 130%;
 	}
 
@@ -106,10 +100,7 @@
 
 	.ad__box-timer-paragraph {
 		padding-top: 27px;
-		font-family: "Lato", "Arial", sans-serif;
 		font-size: 28px;
-		font-weight: 700;
-		color: rgba(255, 255, 255, 1);
 		line-height: 41.6px;
 	}
 }
@@ -117,31 +108,21 @@
 /* !!  @media  1024px  */
 
 @media screen and (max-width: 1024px) {
-	:root {
-		--white-color: rgba(255, 255, 255, 1);
-	}
-
 	.ad {
 		padding-top: 30px;
 		padding-bottom: 11px;
 	}
 
-	.ad__box-title {
-	
-		margin-bottom: 11px;
-	
-		padding-top: 80px;
-		padding-left: 79.66px;
-	
-		font-size: calc(22px + (48 + (48 * 0.7)) * ((100vw - 320px) / 1920));
-		font-weight: 700;
-		line-height: 130%;
+	.ad__box {
+		border-radius: 16px;
 	}
 
-	.test {
-		font-family: "Lato", "Arial", sans-serif;
-		font-weight: 700;
-		font-size: 40px;
+	.ad__box-title {
+		margin-bottom: 11px;
+		padding-top: 80px;
+		padding-left: 79.66px;
+		font-size: calc(22px + (48 + (48 * 0.7)) * ((100vw - 320px) / 1920));
+		line-height: 130%;
 	}
 
 	.ad__box-timer-text {
@@ -151,11 +132,11 @@
 	}
 
 	.ad__box {
-		background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("../ad/img/img1024/ad1024.png");
-		background-repeat: no-repeat;
-		background-size: cover;
 		max-width: 940px;
 		height: 314px;
+		background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("../ad/img/img1024/ad1024.png");
+		background-repeat: no-repeat;
+		object-fit: cover;
 	}
 
 	.ad__box-timer {
@@ -192,27 +173,23 @@
 
 @media screen and (max-width: 768px) {
 	.ad__box {
+		border: radius 16px;
 		background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("../ad/img/img768/img768.png");
 		max-width: 700px;
+		height: 280px;
 	}
 
 	.ad__box-title {
 		margin-bottom: 82px;
 		padding-top: 64px;
 		padding-left: 80px;
-		/* font-size: 30px; */
 		line-height: 39px;
-	}
-
-	.test {
-		font-family: "Lato", "Arial", sans-serif;
-		font-size: 30px;
 	}
 
 	.ad__box-timer-text {
 		margin-bottom: 10px;
-		font-size: 12px;
 		padding-left: 303px;
+		font-size: 12px;
 		line-height: 15.6px;
 	}
 
@@ -241,18 +218,17 @@
 
 @media screen and (max-width: 560px) {
 	.ad__box-title {
-		margin-bottom: 82px;
 		width: 265px;
+		margin-bottom: 82px;
 		padding-top: 64px;
 		padding-left: 35px;
-		/* font-size: 30px; */
 		line-height: 39px;
 	}
 
 	.ad__box-timer-text {
 		margin-bottom: 5px;
-		font-size: 12px;
 		padding-left: 120px;
+		font-size: 12px;
 		line-height: 15.6px;
 	}
 
@@ -288,13 +264,11 @@
 /* !!  @media  350px  */
 
 @media screen and (max-width: 350px) {
-
 	.ad__box-title {
 		margin-bottom: 82px;
 		width: 250px;
 		padding-top: 64px;
 		padding-left: 35px;
-		/* font-size: 30px; */
 		line-height: 39px;
 	}
 }
@@ -303,30 +277,25 @@
 
 @media screen and (max-width: 320px) {
 	.ad__box {
+		border-radius: 8px;
 		background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("../ad/img/img320/img320.png");
 		max-width: 320px;
 		min-height: 340px;
 	}
 
 	.ad__box-title {
-		margin-bottom: 189px;
 		width: 222px;
+		margin-bottom: 189px;
 		padding-top: 50px;
 		padding-left: 29px;
-		/* font-size: 22px; */
 		line-height: 28.6px;
-	}
-
-	.test {
-		font-family: "Lato", "Arial", sans-serif;
-		font-size: 22px;
 	}
 
 	.ad__box-timer-text {
 		margin-bottom: 6px;
+		padding-left: 110px;
 		font-size: 8px;
 		line-height: 10.4px;
-		padding-left: 110px;
 	}
 
 	.ad__box-timer {

@@ -198,10 +198,6 @@
 /* !======= @media 1024px */
 
 @media screen and (max-width: 1024px) {
-	:root {
-		--white-color: rgba(255, 255, 255, 1);
-	}
-
 	.header__inner {
 		max-width: 940px;
 		height: 149px;
